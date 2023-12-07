@@ -142,3 +142,15 @@ VALUES (8, 2, 1, 5, 'C5', 11, 2);
 
 INSERT INTO Ticket (TicketID, MovieID, TheaterID, ShowtimeID, SeatNumber, Price, CustomerID)
 VALUES (9, 4, 1, 5, 'C5', 11, 2);
+
+INSERT INTO Movie (MovieID, Title, ReleaseDate, Duration, Rating, LanguageID, GenreID, Description, CastID, CountryID, AgeLimit)
+VALUES (16, 'Gladiator', TO_DATE('2000-05-05', 'YYYY-MM-DD'), INTERVAL '2' HOUR + INTERVAL '35' MINUTE, 8.5, 1, 1, 'A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.', 6, 1, 16);
+
+INSERT INTO Movie (MovieID, Title, ReleaseDate, Duration, Rating, LanguageID, GenreID, Description, CastID, CountryID, AgeLimit)
+VALUES (17, 'Django Unchained', TO_DATE('2012-12-25', 'YYYY-MM-DD'), INTERVAL '2' HOUR + INTERVAL '45' MINUTE, 8.4, 1, 1, 'With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.', 5, 1, 18);
+
+INSERT INTO Movie (MovieID, Title, ReleaseDate, Duration, Rating, LanguageID, GenreID, Description, CastID, CountryID, AgeLimit)
+VALUES (18, 'The Social Network', TO_DATE('2010-10-01', 'YYYY-MM-DD'), INTERVAL '2' HOUR, 7.7, 1, 1, 'As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.', 7, 1, 12);
+
+INSERT INTO Movie (MovieID, Title, ReleaseDate, Duration, Rating, LanguageID, GenreID, Description, CastID, CountryID, AgeLimit)
+VALUES (19, 'The Revenant', TO_DATE('2015-12-25', 'YYYY-MM-DD'), INTERVAL '2' HOUR + INTERVAL '36' MINUTE, 8.0, 1, 1, 'A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.', 3, 1, 18);
